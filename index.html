@@ -264,6 +264,48 @@
 					</div>
 				</div>
 			</section>
+			<section class="form">
+				<h1>Formulario de Contacto</h1>
+				<form id="contactForm" action="thanks.html" method="post">
+					<label for="name">Nombre</label>
+					<input
+						type="text"
+						id="name"
+						name="name"
+						placeholder="Ingresa tu nombre"
+						required
+					/>
+
+					<label for="email">Correo Electrónico</label>
+					<input
+						type="email"
+						id="email"
+						name="email"
+						placeholder="Ingresa tu correo electrónico"
+						required
+					/>
+
+					<label for="subject">Asunto</label>
+					<input
+						type="text"
+						id="subject"
+						name="subject"
+						placeholder="Asunto de tu mensaje"
+						required
+					/>
+
+					<label for="message">Mensaje</label>
+					<textarea
+						id="message"
+						name="message"
+						rows="5"
+						placeholder="Escribe tu mensaje aquí..."
+						required
+					></textarea>
+
+					<button type="submit">Enviar Mensaje</button>
+				</form>
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__block">
@@ -284,14 +326,5 @@
 				<p>&copy; 2024 Visión Clara. Todos los derechos reservados.</p>
 			</div>
 		</footer>
-
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-			integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		></script>
-		<script type="text/javascript" src="js/materialize.min.js"></script>
-		<script src="js/script.js"></script>
 	</body>
 </html>
