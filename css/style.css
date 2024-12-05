@@ -400,15 +400,20 @@ textarea:focus {
 	outline: none;
 }
 
-button {
+.contact__form_action {
 	background-color: #e84545;
-	color: #fff;
+	color: #fff !important;
 	border: none;
 	cursor: pointer;
 	transition: background-color 0.3s;
+	font-size: 16px;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
 }
 
-button:hover {
+.contact__form_action:hover {
 	background-color: #d73636;
 }
 /* media ovner + gallery */
